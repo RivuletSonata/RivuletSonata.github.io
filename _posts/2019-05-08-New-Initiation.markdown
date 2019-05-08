@@ -2,7 +2,7 @@
     author: Kelvin
     comments: true
     date: 2019-05-07
-    layout: post
+    layout: page
     title: New Initiation
     categories:
     - Life
