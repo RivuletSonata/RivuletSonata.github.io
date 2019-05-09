@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /about
 ---
 
 You are surfing the private page of Kelvin Li.
