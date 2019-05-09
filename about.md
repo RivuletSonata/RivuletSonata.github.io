@@ -2,6 +2,11 @@
 layout: page
 title: About Me
 permalink: /about
+description: 把目标定在月亮上，<br />
+
+    即使失败了，<br />
+
+    也会落在群星之间。
 ---
 
 You are surfing the private page of Kelvin Li.

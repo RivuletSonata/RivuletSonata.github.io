@@ -5,9 +5,9 @@
     layout: page
     title: New Initiation
     categories:
-    - Life
+        - Life
     tags:
-    - Record
+        - Record
 ---
 # 写在前面
 这是我的第一篇博文。
