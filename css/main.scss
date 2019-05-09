@@ -1748,6 +1748,17 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		.friends {
+			font-size: 1em;
+
+			a {
+				color: _palette(fg-light);
+
+				&:hover {
+					color: _palette(fg);
+				}
+			}
+		}
 		.copyright {
 			color: _palette(fg-light);
 			font-size: 0.8em;
