@@ -88,15 +88,15 @@ $$
 
 第二层的一些神经元可以识别更加细化的纹理，比如布纹、刻度、叶纹。
 
-![](https://i.loli.net/2019/01/02/5c2ccb8842f9e.jpg)
+![](https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g2vhjmtj31j30k00a1wga.jpg)
 
 第三层的一些神经元负责感受黑夜里的黄色烛光、鸡蛋黄、高光。
 
-![](https://i.loli.net/2019/01/02/5c2ccb884599d.jpg)
+![](https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g2vhjyk0gaj30k00a5wg2.jpg)
 
 第四层的一些神经元负责识别萌狗的脸、七星瓢虫和一堆圆形物体的存在。
 
-![](https://i.loli.net/2019/01/02/5c2ccb884ea28.jpg)
+![](https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g2vhk7otolj30k0099tac.jpg)
 
 第五层的一些神经元可以识别出花、圆形屋顶、键盘、鸟、黑眼圈动物。
 
