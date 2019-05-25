@@ -5,7 +5,8 @@
     layout: page
     title: 探索计算机的潜意识——神经网络与深度学习
     categories:
-        - CS
+        - archive
+        - cs
     tags:
         - Deeplearning
 ---

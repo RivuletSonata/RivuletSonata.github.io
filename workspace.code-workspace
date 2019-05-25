@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "D:\\Code\\CPP"
+		},
+		{
+			"path": "D:\\Code\\JS"
+		},
+		{
+			"path": "D:\\Code\\Project"
+		},
+		{
+			"path": "D:\\Code\\Python"
+		},
+		{
+			"path": "D:\\Code\\Html"
+		},
+		{
+			"path": "D:\\Code\\Latex"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Html"
+	}
+}

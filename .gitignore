@@ -1,6 +1,17 @@
 # Jekyll ignores
+.jekyll-metadata
 .sass-cache/
-_site
+_site/
+_drafts/
+_data/tokens.yml
+_posts/1*
+_posts/2*
+unique/
+_site.env
+_my/
+_includes/_my
+_layouts/_my
+Gemfile.lock
 
 # Windows image file caches
 Thumbs.db
@@ -49,3 +60,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# VSCode
+.vscode/

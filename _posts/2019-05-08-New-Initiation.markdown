@@ -5,7 +5,8 @@
     layout: page
     title: New Initiation
     categories:
-        - Life
+        - archive
+        - life
     tags:
         - Record
 ---

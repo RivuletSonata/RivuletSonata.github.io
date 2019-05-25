@@ -1,8 +1,10 @@
 ---
-layout: page
+key: 4
 title: About Me
-permalink: /about
-description: 把目标定在月亮上，<br />
+permalink: /about/
+background-image: pic04.jpg
+image: pic04.jpg
+excerpt: 把目标定在月亮上，<br />
 
     即使失败了，<br />
 
