@@ -15,7 +15,7 @@ Hey, you are surfing the private page of Kelvin Li.
 
 I am currently a student in Chengdu, Sichuan University Computer Science Department.
 
-Major in Computer Science (Everest Class)
+Major in Computer Science (Everest Class).
 
 Learning elementary Math, Algorithms, Machine learning.
 
