@@ -11,9 +11,11 @@ excerpt: 把目标定在月亮上，<br />
     也会落在群星之间。
 ---
 
-You are surfing the private page of Kelvin Li.
+Hey, you are surfing the private page of Kelvin Li.
 
-I am currently a Computer Science student in Chengdu. Sichuan University Computer Science Department.
+I am currently a student in Chengdu, Sichuan University Computer Science Department.
+
+Major in Computer Science (Everest Class)
 
 Learning elementary Math, Algorithms, Machine learning.
 
