@@ -26,7 +26,7 @@ The **polynomial fit** is a very possible way towards the problem which can fit 
 **Locally Weighted Linear Regression** performs as a rectification of the ordinary Linear Regression. To intuitively understand the concept, LWLR adds a new weight to the Loss Funciton $L(w,b)=\frac{1}{2}\sum_{i=1}^m\mu^{i}(f(x^{i})-y^{i})^2$.
 
 Among them, **m** stants for the number of training samples.
-$f(x)=\theta^Tx$, \
+$f(x)=\theta^Tx$, 
 $\mu^i$ is a non-negative weights value, generally using an exponential form:$\mu^i=e^{-\frac{(x^i-x)^2}{2\tau^2}}$, it looks like **Normal Distribution**, 
 
 Then we establish a Diagonal matrix $\psi$, s.t:
