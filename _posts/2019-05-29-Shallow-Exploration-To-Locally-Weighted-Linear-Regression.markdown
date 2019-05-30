@@ -23,7 +23,7 @@ One fault in ordinary linear regression lies in its inclination to the under-fit
 
 The **polynomial fit** is a very possible way towards the problem which can fit all of the training data. However, it behaves quite poor when it comes to predicting new samples because it causes the over-fitting problem and fail to fit the real model.
 
-**Locally Weighted Linear Regression** performs as a rectification of the ordinary Linear Regression. To intuitively understand the concept, LWLR adds a new weight to the Loss Funciton $L(w,b)=\frac{1}{2}\sum_{i=1}^m\mu^{i}(f(x^{i})-y^{i})^2$.
+**Locally Weighted Linear Regression** performs as a rectification of the ordinary Linear xRegression. To intuitively understand the concept, LWLR adds a new weight to the Loss Funciton $L(w,b)=\frac{1}{2}\sum_{i=1}^m\mu^{i}(f(x^{i})-y^{i})^2$.
 
 Among them, **m** stants for the number of training samples.
 $f(x)=\theta^Tx$, 
@@ -31,6 +31,7 @@ $\mu^i$ is a non-negative weights value, generally using an exponential form:$\m
 
 Then we establish a Diagonal matrix $\psi$, s.t:
 $$\psi_{i,i}=\mu^i=e^{-\frac{(x^i-x)^2}{2\tau^2}}$$
+
 $x$ stands for the new input. 
 
 $\tau$ stands for the extent to which the distant training data will be considered.
