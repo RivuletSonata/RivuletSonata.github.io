@@ -6,9 +6,9 @@ options: nolanding, nomenu
 excerpt: Get in touch
 background-image: caustic_light.jpg
 script-includes:
-  - /js/jquery.validate.min.js
+- /js/jquery.validate.min.js
 script: |
-  $("#sendemail").validate();
+$("#sendemail").validate();
 ---
 
 <section>
@@ -27,7 +27,7 @@ script: |
         <textarea required name="textbody" id="textbody" placeholder="Type your message" rows="6"></textarea>
       </div>
       <div class="6u$ 12u$(xsmall)">
-        <img src="{{ site.data.tokens.captchascript }}"/><br />
+        <img src="{{ site.data.tokens.captchascript }}" /><br />
         <input required type="text" name="captcha" id="captcha" placeholder="Type the numbers you see" />
       </div>
       <div class="12u$">
@@ -36,9 +36,7 @@ script: |
         </ul>
       </div>
     </div>
-    <input type="hidden" name="success"
-           value="{{ '/contact-success' | prepend: site.baseurl | prepend: site.url }}" />
-    <input type="hidden" name="failure"
-           value="{{ '/contact-failure' | prepend: site.baseurl | prepend: site.url }}" />
+    <input type="hidden" name="success" value="{{ '/contact-success' | prepend: site.baseurl | prepend: site.url }}" />
+    <input type="hidden" name="failure" value="{{ '/contact-failure' | prepend: site.baseurl | prepend: site.url }}" />
   </form>
 </section>
