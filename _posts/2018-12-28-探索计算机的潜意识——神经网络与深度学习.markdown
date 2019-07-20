@@ -2,7 +2,7 @@
     author: Kelvin
     comments: true
     date: 2018-12-28
-    layout: page
+    layout: post
     title: 探索计算机的潜意识——神经网络与深度学习
     categories:
         - archive

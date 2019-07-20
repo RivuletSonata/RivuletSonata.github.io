@@ -1,5 +1,5 @@
 ---
 layout: landing
 sitemap:
-  priority: 1.0
+priority: 1.0
 ---

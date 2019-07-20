@@ -31,33 +31,34 @@ layout: default
     {% endif%}
   
    {% unless page.options contains 'minihead' %}
-     
       <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span>
       <hr style="margin-top:3px;" />
     {% endunless%}
   
-   {% if page.categories contains 'works' and page.tags %}
+    {% if page.categories contains 'works' and page.tags %}
        <h4>Skills</h4>
-       {% assign work = page%}
+        {% assign work = page%}
         {% include techlist.html %}
-  {% endif%}
+    {% endif%}
 
-      {{ content }}
+  {{ content }}
       {% if sorted_list%}
-      {% if site.navlinks == 'bottom' or site.navlinks == 'both'%}
-      {% unless perma%}
-      {% assign perma = '/topics/' | prepend: site.baseurl%}
-      {% endunless%}
-      {% include fn_sortednav.html posclass='btnbottom'%}
+        {% if site.navlinks == 'bottom' or site.navlinks == 'both'%}
+          {% unless perma%}
+            {% assign perma = '/topics/' | prepend: site.baseurl%}
+          {% endunless%}
+          {% include fn_sortednav.html posclass='btnbottom'%}
+        {% endif%}
       {% endif%}
-      {% endif%}
+      
       {% unless page.author == 'none'%}
-      {% include author-block.html %}
+        {% include author-block.html %}
+      {% endunless%}
+            
+      {% if jekyll.environment == "production"%}
+        {% unless page.options contains nocomment or page.categories contains 'works'%}
+            {% include disqus.html %}
         {% endunless%}
-           {% if jekyll.environment == "production"%}
-           {% unless page.options contains nocomment or page.categories contains 'works'%}
-           {% include disqus.html %}
-  {% endunless%}
-  {% endif%}
+      {% endif%}
     </div>
   </section>

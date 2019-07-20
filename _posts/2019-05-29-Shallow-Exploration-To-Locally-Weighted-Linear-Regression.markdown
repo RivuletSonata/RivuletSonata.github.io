@@ -2,7 +2,7 @@
     author: Kelvin
     comments: true
     date: 2019-05-29
-    layout: page
+    layout: post
     title: Shallow Exploration To Locally Weighted Linear Regression(LWR)
     categories:
         - CS
