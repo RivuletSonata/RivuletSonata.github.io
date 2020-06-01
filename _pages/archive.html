@@ -1,48 +1,21 @@
 ---
 key: 1
 title: Archive
-layout: post
 permalink: /archive/
 excerpt: 如永生般逐梦，如末日般生活
 background-image: pic06.jpg
 image: pic01.jpg
+layout: page
 ---
 
 <!-- 
 Credits: this page shamelessly borrowed a lot from:
 https://github.com/kitian616/jekyll-TeXt-theme
 -->
-<!-- Page Header -->
-<!--{% include header.html type='page' short=true %}-->
-
 <!-- Main Content -->
 <div class="table-wrapper">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-			<!-- Tags (as filter) -->
-			<!--		<div id='tag_cloud' class="tags tags-sup js-tags">
-
-				<a class="tag-button--all" data-encode="">
-					Show All
-					<sup>{{site.posts.size}}</sup>
-				</a>
-
-				{% capture tags %}
-					{% for tag in site.tags %}
-					<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
-						data-encode="{{ tag[0] | strip | url_encode }}"
-						class="tag-button"
-						title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-						{{ tag[0] }}
-						<sup>{{tag[1].size}}</sup>
-					</a>
-					{% endfor %}
-				{% endcapture %}
-				{{ tags | url_encode | split:'</a>' | sort | join:'</a>' | url_decode }}
-
-			</div>
-	-->
 			<!-- Get Article Nums -->
 			{% assign count = 1 %}
 			{% for post in site.posts reversed %}
