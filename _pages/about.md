@@ -11,16 +11,14 @@ excerpt: 把目标定在月亮上，<br />
     也会落在群星之间。
 ---
 
-Hey, you are surfing the private page of Kelvin Li.
+Hey, Welcome to Kelvin Li's personal blog.
 
-I am currently a student in Chengdu, Sichuan University Computer Science Department.
+I am currently a student in  University of Illinois, at Urbana-Champaign (UIUC), USA
 
-Major in Computer Science (Everest Class).
+My major is Mathematics & Computer Science.
 
-Learning elementary Math, Algorithms, Machine learning.
+My research interests focus on Data Mining, NLP, Deep Learning etc.
 
-Please contact me at xixili2000@outlook.com.
+Please contact me at yuanxi3@illinois.edu.
 
-WECHAT:xixili2000
-
-Thank you for your time.
+Thank you for your visiting.
