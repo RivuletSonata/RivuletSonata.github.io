@@ -3,51 +3,163 @@ key: 2
 title: Experience
 permalink: /experience/
 options: fullwidth
-excerpt: 暂时空缺
+excerpt: 素履之往
 image: pic02.jpg
 background-image: pic02.jpg
+layout: blank
 ---
+<!-- <p>sdhfjdshjfhdjsfhjsd</p> -->
+      <!-- <p> {{ data.members }} </p> -->
+      <!-- <p> {{ site.data.resume.name }} </p> -->
 
-{% if site.posts %}
-      {% if site.tags.featured %}
-        <hr style="margin:0 0 1em 0;" />
-            <h4>Featured</h4>
-          <ul class="post-list">
-              {% for post in site.categories.topics %}
-                    {% if post.tags contains "featured" %}
-                        <li>
-                          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                            <div class="container">
-                              <p class="post-title">{{ post.title }}</p>
-                              <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
-                              <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 12 }}</p>
-                            </div>
-                          </a>
-                        </li>
-                  {% endif %}
-              {% endfor %}
-          </ul>
-      {% endif %}
-    
-      <hr style="margin:1em 0 1em 0;" />
+        <meta charset="UTF-8">
+        <title>Kelvin Li - Resume</title>
 
-      <ul style="list-style-type: none;">
-      {% assign p = '9999'%}
-      
-        {% for post in site.categories.topics%}
-                {% assign n = post.date | date: "%Y"%}
-                {% if n != p%}
-                  {% assign p = n%}
-                    <br /><h5>{{ n }}</h5>
-                {% endif %}
-                <li style="padding-bottom: 6px;">
-                  <code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-                  <a href="{{ post.url | prepend: site.baseurl }}" style="white-space: nowrap;">
-                    <b>{{ post.title }}</b>
-                  </a>&nbsp;
-                    {{ post.excerpt | strip_html | truncatewords: 12 }}
-                </li>
-        {% endfor%}
-    </ul>
+        <link rel="stylesheet" href="/css/cv.css">
 
-{% endif %}
+        <body>
+          
+        <div class="page">
+            <div class="section row">
+                <h1 class="col"><span style="font-weight:700">Yuanxi </span> (Kelvin) Li</h1>
+                <div class="contact-info col-right">
+                    <div>+1 217 8989 672</div>
+                    <div>+86 132 810 88370</div>
+                    <div><a href="mailto:yuanxi3@illinois.edu">yuanxi3@illinois.edu</a></div>
+                    <div><a href="http://likelvin.com">likelvin.com</a></div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Interests</h2>
+                <div class="section-text col-right"> 
+                  <span class="key"></span>
+                  <span class="key">Machine Learning</span> 
+                  <span class="key">Data Mining</span> 
+                  <span class="key">Natural Language Processing</span> 
+                  <br>
+                  <a>  </a>
+                  <span class="key">Information Retrieval</span> 
+                  <span class="key">Web Search Technology</span>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Skills</h2>
+                <div class="section-text col-right row">
+                    <!-- <ul class="skills" style="width:25%">
+
+                    </ul>
+                    <ul class="skills" style="width:35%">
+                        <li>Qt, OpenGL/SDL, V8</li>
+                        <li>jQuery, backbone, node</li>
+                        <li>Django, App engine</li>
+                        <li>LESS, Bootstrap, d3.js</li>
+                                                <li>MySQL, MongoDB</li>
+                        <li>grunt, jasmine</li>
+                        <li>Flash, Actionscript 3</li>
+                        <li>Git, Photoshop, Illustrator</li>
+                    </ul> -->
+                    <ul class="skills" style="width:100%">
+                        <li>C/C++, Python</li>
+                        <li>HTML5, CSS3, SQL</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section row">
+                <h2 class="col">Education</h2>
+                <div class="section-text col-right">
+                    <h3>University of Illinois at Urbana­Champaign</h3>
+                    <div><span class="emph">B.S</span> in Computer Science & Mathematics</div>
+                    <div class="row">
+                        <div class="col light">Illinois, USA</div>
+                        <div class="col-right light">Jan 2020 – PRESENT</div>
+                    </div>
+                </div>
+                <div class="section-text col-right">
+                    <h3>Sichuan University</h3>
+                    <div><span class="emph">B.E</span> in Computer Science</div>
+                    <div class="row">
+                        <div class="col light">Chengdu, China</div>
+                        <div class="col-right light	">Sep 2018 – Dec 2019</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Experience</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Bilibili Group</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Algorithm Intern</div>
+                        <div class="col-right light">August 2020 - Present</div>
+                    </div>
+                    <ul class="desc">
+                        <li>Searching Technology</li>
+                </div>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>University of Illinois at Urbana­Champaign</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Research Assistant</div>
+                        <div class="col-right light">May 2020 – August 2020</div>
+                    </div>
+                    
+                    <ul class="desc">
+                        <li>Conduct research projects which focus on data mining, deep learning, NLP, social networks.</li>
+                        <!-- <li>Designed and developed a mobile-friendly responsive web app from the ground-up that tracks touch events to calibrate and measure the distance between two fingers and detects gestures.</li>
+                        <li>Ported the web app as a native mac OS app which involved writing a native node.js module that detects and generates DOM touch events from a mac trackpad.</li>
+                        <li>Developed a RESTful server that extracts speech from recorded audio tracks by trimming background silence and normalizing gain.</li>
+                        <li>Developed a proxy service to allow users to stream on-demand audio from a music streaming service on a mobile web app.</li>
+                
+                        <li>Built interactive audio and visual feedback using the HTML5 web audio api and SVG.</li> -->
+                    </ul>
+                    </div>
+            </div>
+
+            <!-- <div class="section row">
+                <h2 class="col">Projects</h2>
+                <div class="section-text col-right">
+                    <h3><a href="https://github.com/nuterian">github.com/nuterian</a></h3>
+                </div>
+            </div> -->
+            
+            <div class="section row">
+                <h2 class="col">Honors</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Honor Student, Everest Project</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Authorized by Ministry of Education of the People’s Republic of China.</div>
+                        <div class="col-right light">Sep 2018</div>
+                    </div>
+                    <div class="desc">Selected in The Pilot Project for Fostering Top­Notch Students in Basic Science, 
+                    </div>
+                </div>
+                			
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Excellent Student</h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">Sichuan University</div>
+                        <div class="col-right light">2018 – 2019</div>
+                    </div>
+                    <!-- <div class="desc">Developed a prototypical game using Actionscript on the Flash platform, in less than 48 hours. Received an honorable mention award for the <span class="emph">Best Looking Game</span>.</div> -->
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+<!-- 以下为无用片段 -->
