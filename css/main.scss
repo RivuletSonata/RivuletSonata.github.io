@@ -262,7 +262,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		font-family: _font(family-fixed);
 		font-size: _font(fixed-size);
 		margin: 0 0 _size(element-margin) 0;
-
+		white-space: pre;
+		overflow-x: auto;
+		overflow-y: hidden;
+		word-break: inherit;
+		word-wrap: inherit;
 		code {
 			border-radius: 6px;
 			display: block;
