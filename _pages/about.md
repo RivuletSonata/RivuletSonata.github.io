@@ -11,7 +11,7 @@ excerpt: 把目标定在月亮上，<br />
     也会落在群星之间。
 ---
 
-Hey, Welcome to Kelvin Li's personal blog.
+Hey, Welcome to Ewan Yuanxi Li's personal blog.
 
 I am currently a student in  University of Illinois, at Urbana-Champaign (UIUC), USA
 
