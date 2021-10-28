@@ -15,10 +15,10 @@ title:  EWAN LI'S ZONE
 description: 如永生般逐梦，如末日般生活
 owner:
   name: Ewan Li # or company name
-  url: "https://xixili2000.github.io" # your URL
+  url: "https://RivuletSonata.github.io" # your URL
 first_published: 2019 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "https://xixili2000.github.io" # the base hostname & protocol for this site
+url: "https://RivuletSonata.github.io" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
